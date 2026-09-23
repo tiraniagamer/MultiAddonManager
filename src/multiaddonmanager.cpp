@@ -169,8 +169,8 @@ constexpr const byte g_ScriptGetAddon_Sig[] = "\x55\x48\x89\xE5\x41\x55\x41\x54\
 
 
 // Offsets
-constexpr int g_iServerAddonsOffset = 344;
-constexpr int g_iClientListOffset = 584;
+constexpr int g_iServerAddonsOffset = 376;
+constexpr int g_iClientListOffset = 616;
 
 #ifdef PLATFORM_WINDOWS
 constexpr int g_iSendNetMessageOffset = 15;
