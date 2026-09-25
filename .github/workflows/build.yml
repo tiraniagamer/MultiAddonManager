@@ -43,7 +43,8 @@ jobs:
         uses: actions/checkout@v7
         with:
           repository: alliedmodders/metamod-source
-          ref: master
+          # Last commit with SourceHook, master replaced it with KHook in a12f3cd
+          ref: 7ec0f16948ab3a0910a98b4ac10e1c0e360d5339
           path: mmsource-2.0
           submodules: recursive
 
